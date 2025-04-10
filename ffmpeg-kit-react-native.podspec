@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.subspec 'video' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                              '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'starkix-ffmpeg-kit-ios-video', "6.0.2"
+      ss.dependency 'starkix-ffmpeg-kit-ios-video', "6.0.3"
       ss.ios.deployment_target = '14.0'
   end
 
