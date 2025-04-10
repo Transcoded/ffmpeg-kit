@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = package["description"]
   s.homepage     = package["homepage"]
   s.license      = package["license"]
-  s.authors      = package["author"]
+  s.authors      = "StarKix"
 
   s.platform          = :ios
   s.requires_arc      = true
