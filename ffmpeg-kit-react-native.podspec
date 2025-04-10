@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.static_framework  = true
 
   s.source = {
-    :http => "<Link to bundle-apple-xcframework-ios.zip>"
+    :http => "https://frostyk.s3.us-east-2.amazonaws.com/ffmpeg-kit-https-6.0-ios-xcframework.zip"
   }
 
   s.default_subspec   = 'video'
